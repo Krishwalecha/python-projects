@@ -54,6 +54,8 @@ This repository captures my progress during the initial phase of the course, foc
 ### Day 10
 - [Calculator](./Day%2010/calculator.py)
 
+### Day 11
+- [Black Jack](./Day%2011/blackJack.py)
 ---
 
 ## 👩‍🏫 Credits
