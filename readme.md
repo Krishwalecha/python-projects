@@ -17,6 +17,7 @@ This repository captures my progress during the initial phase of the course, foc
 - Debugging strategies and clean code practices  
 - Basic algorithmic problem solving  
 - Implementing challenges from Reeborg's World
+- Global and local scopre
 
 ## 🚀 Projects Completed
 
@@ -56,6 +57,9 @@ This repository captures my progress during the initial phase of the course, foc
 
 ### Day 11
 - [Black Jack](./Day%2011/blackJack.py)
+
+### Day 12
+- [Number Guessing Game](./Day%2012/numberGuessingGame.py)
 ---
 
 ## 👩‍🏫 Credits
