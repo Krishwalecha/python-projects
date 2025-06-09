@@ -70,6 +70,9 @@ This repository captures my progress during the initial phase of the course, foc
 ### Day 14  
 - [Higher Lower Game](./Day%2014/higherLowerGame.py)
 
+### Day 15
+- [Virtual Coffee Machine](./Day%2015/virtualCoffeeMachine.py)
+
 ---
 
 ## 👩‍🏫 Credits
