@@ -17,7 +17,9 @@ This repository captures my progress during the initial phase of the course, foc
 - Debugging strategies and clean code practices  
 - Basic algorithmic problem solving  
 - Implementing challenges from Reeborg's World
-- Global and local scopre
+- Global scope, local scope and constants
+- Using debugging tools and environments (such as Thonny and IDE debuggers) to identify and fix errors  
+- Handling exceptions gracefully with try-except blocks 
 
 ## 🚀 Projects Completed
 
@@ -60,6 +62,14 @@ This repository captures my progress during the initial phase of the course, foc
 
 ### Day 12
 - [Number Guessing Game](./Day%2012/numberGuessingGame.py)
+
+### Day 13  
+- How to find and debug errors (Analyze code line-by-line, think like the computer, use debuggers like Thonny, etc)  
+- No code file, focused on debugging techniques and mindset  
+
+### Day 14  
+- [Higher Lower Game](./Day%2014/higherLowerGame.py)
+
 ---
 
 ## 👩‍🏫 Credits
