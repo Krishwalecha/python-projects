@@ -73,6 +73,9 @@ This repository captures my progress during the initial phase of the course, foc
 ### Day 15
 - [Virtual Coffee Machine](./Day%2015/virtualCoffeeMachine.py)
 
+### Day 16
+- [Virtual Coffee Machine - OOP](./Day%2016/main.py)
+
 ---
 
 ## 👩‍🏫 Credits
