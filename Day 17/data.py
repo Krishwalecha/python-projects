@@ -1,0 +1,22 @@
+question_data = [
+    {"question": "Is the Earth flat?", "answer": "False"},
+    {"question": "Does 2 + 2 equal 4?", "answer": "True"},
+    {"question": "Is the moon made of cheese?", "answer": "False"},
+    {"question": "Can humans breathe underwater without equipment?", "answer": "False"},
+    {"question": "Is the sun a star?", "answer": "True"},
+    {"question": "Do all mammals lay eggs?", "answer": "False"},
+    {"question": "Is 1 a prime number?", "answer": "False"},
+    {"question": "Does water boil at 100°C at sea level?", "answer": "True"},
+    {"question": "Are spiders insects?", "answer": "False"},
+    {"question": "Is the Great Wall of China visible from space?", "answer": "False"},
+    {"question": "Do all planets in our solar system have moons?", "answer": "False"},
+    {"question": "Is gold a chemical element?", "answer": "True"},
+    {"question": "Can sound travel in a vacuum?", "answer": "False"},
+    {"question": "Is the shortest day of the year in December in the Northern Hemisphere?", "answer": "True"},
+    {"question": "Do all birds have teeth?", "answer": "False"},
+    {"question": "Is the chemical formula for water H2O?", "answer": "True"},
+    {"question": "Are viruses considered living organisms?", "answer": "False"},
+    {"question": "Is the Pacific Ocean the largest ocean on Earth?", "answer": "True"},
+    {"question": "Do all triangles have four sides?", "answer": "False"},
+    {"question": "Is photosynthesis a process used by plants to make energy?", "answer": "True"}
+]

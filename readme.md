@@ -20,6 +20,7 @@ This repository captures my progress during the initial phase of the course, foc
 - Global scope, local scope and constants
 - Using debugging tools and environments (such as Thonny and IDE debuggers) to identify and fix errors  
 - Handling exceptions gracefully with try-except blocks 
+- Object Oriented Programming
 
 ## 🚀 Projects Completed
 
@@ -75,6 +76,9 @@ This repository captures my progress during the initial phase of the course, foc
 
 ### Day 16
 - [Virtual Coffee Machine - OOP](./Day%2016/main.py)
+
+### Day 17
+- [True or False Quiz](./Day%2017/main.py)
 
 ---
 
