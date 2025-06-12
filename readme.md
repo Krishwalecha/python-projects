@@ -21,6 +21,7 @@ This repository captures my progress during the initial phase of the course, foc
 - Using debugging tools and environments (such as Thonny and IDE debuggers) to identify and fix errors  
 - Handling exceptions gracefully with try-except blocks 
 - Object Oriented Programming
+- Turtle graphics (using the turtle module)
 
 ## 🚀 Projects Completed
 
@@ -79,6 +80,11 @@ This repository captures my progress during the initial phase of the course, foc
 
 ### Day 17
 - [True or False Quiz](./Day%2017/main.py)
+
+### Day 18
+- [Spirograph](./Day%2018/spirograph.py)
+- [Color Extractor](./Day%2018/color_extractor.py)
+- [Hirst's Dot Painting](./Day%2018/hirst_dot_painting.py)
 
 ---
 
