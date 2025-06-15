@@ -86,9 +86,12 @@ This repository captures my progress during the initial phase of the course, foc
 - [Color Extractor](./Day%2018/color_extractor.py)
 - [Hirst's Dot Painting](./Day%2018/hirst_dot_painting.py)
 
-### Day 18
+### Day 19
 - [Turtle Sketcher](./Day%2019/turtle_sketcher.py)
 - [Turtle Race](./Day%2019/turtle_race.py)
+
+### Day 20 and 21
+- [The Snake Game](./Day%2020%20and%2021/snake_game.py)
 
 ---
 
