@@ -93,6 +93,9 @@ This repository captures my progress during the initial phase of the course, foc
 ### Day 20 and 21
 - [The Snake Game](./Day%2020%20and%2021/snake_game.py)
 
+### Day 22
+- [Pong Battle](./Day%2022/pong_battle.py)
+
 ---
 
 ## 👩‍🏫 Credits
