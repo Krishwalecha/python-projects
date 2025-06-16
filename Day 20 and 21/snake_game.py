@@ -11,18 +11,20 @@ screen.bgcolor("black")
 screen.title("Snake Game")
 screen.tracer(0)
 
-game_is_on = True
-
+# Create game objects
 snake = Snake()
 food = Food()
 score_board = Score()
 
+# Key bindings
 screen.listen()
 screen.onkey(snake.up, "Up" )
 screen.onkey(snake.down, "Down")
 screen.onkey(snake.left, "Left")
 screen.onkey(snake.right, "Right")
 
+# Main game loop
+game_is_on = True
 while game_is_on:
     screen.update()
     time.sleep(0.1)
@@ -35,12 +37,12 @@ while game_is_on:
         score_board.increase_score()
         snake.extend()
 
+    # Detect collision with wall
     if snake.wall_collision():
-        game_is_on = False
-        score_board.game_over("YOU COLLIDED WITH THE WALL!")
-    
-    if snake.tail_collision():
-        game_is_on = False
-        score_board.game_over("YOU RAN INTO YOUR OWN TAIL!")
+        score_board.reset()
+        snake.reset()
 
-screen.exitonclick()
+    # Detect collision with tail
+    if snake.tail_collision():
+        score_board.reset()
+        snake.reset()

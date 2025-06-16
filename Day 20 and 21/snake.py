@@ -75,7 +75,7 @@ class Snake:
             (self.head.ycor() > 290 or self.head.ycor() < -290)):
             return True
         return False
-    
+
     def tail_collision(self):
         """
         Checks if the snake's head has collided with its own body.
@@ -87,3 +87,11 @@ class Snake:
             if self.head.distance(segment) < 10:
                 return True
         return False
+
+    def reset(self):
+        """Moves all snake segments off-screen and resets the snake."""
+        for segment in self.segments:
+            segment.goto(1000, 1000)
+        self.segments.clear()
+        self.create_snake()
+        self.head = self.segments[0]
