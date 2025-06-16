@@ -22,6 +22,7 @@ This repository captures my progress during the initial phase of the course, foc
 - Handling exceptions gracefully with try-except blocks 
 - Object Oriented Programming
 - Turtle graphics (using the turtle module), turtle event listeners
+- File handling and filesystem operations in Python
 
 ## 🚀 Projects Completed
 
@@ -98,6 +99,10 @@ This repository captures my progress during the initial phase of the course, foc
 
 ### Day 23
 - [Turtle Crossing Game](./Day%2023/turtle_crossing.py)
+
+### Day 24
+- [Simple Letter Generator](./Day%2024/main.py)
+
 ---
 
 ## 👩‍🏫 Credits
