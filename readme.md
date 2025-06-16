@@ -96,6 +96,8 @@ This repository captures my progress during the initial phase of the course, foc
 ### Day 22
 - [Pong Battle](./Day%2022/pong_battle.py)
 
+### Day 23
+- [Turtle Crossing Game](./Day%2023/turtle_crossing.py)
 ---
 
 ## 👩‍🏫 Credits
