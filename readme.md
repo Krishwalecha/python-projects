@@ -107,6 +107,8 @@ This repository captures my progress during the initial phase of the course, foc
 ### Day 25
 - [U.S. States Quiz](./Day%2025/main.py)
 
+### Day 26
+- [NATO Alphabet Project](./Day%2026/main.py)
 ---
 
 ## 👩‍🏫 Credits
