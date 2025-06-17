@@ -23,6 +23,7 @@ This repository captures my progress during the initial phase of the course, foc
 - Object Oriented Programming
 - Turtle graphics (using the turtle module), turtle event listeners
 - File handling and filesystem operations in Python
+- Python libraries like pandas, numpy, matplotlib
 
 ## 🚀 Projects Completed
 
@@ -102,6 +103,9 @@ This repository captures my progress during the initial phase of the course, foc
 
 ### Day 24
 - [Simple Letter Generator](./Day%2024/main.py)
+
+### Day 25
+- [U.S. States Quiz](./Day%2025/main.py)
 
 ---
 
