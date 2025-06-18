@@ -24,6 +24,7 @@ This repository captures my progress during the initial phase of the course, foc
 - Turtle graphics (using the turtle module), turtle event listeners
 - File handling and filesystem operations in Python
 - Python libraries like pandas, numpy, matplotlib
+- Tkinter GUI
 
 ## 🚀 Projects Completed
 
@@ -109,6 +110,9 @@ This repository captures my progress during the initial phase of the course, foc
 
 ### Day 26
 - [NATO Alphabet Project](./Day%2026/main.py)
+
+### Day 27
+- [Miles to Kilometers Converter - GUI](./Day%2027/main.py)
 ---
 
 ## 👩‍🏫 Credits
