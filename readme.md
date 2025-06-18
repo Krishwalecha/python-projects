@@ -113,6 +113,10 @@ This repository captures my progress during the initial phase of the course, foc
 
 ### Day 27
 - [Miles to Kilometers Converter - GUI](./Day%2027/main.py)
+
+### Day 28
+- [Pomodoro Timer - GUI](./Day%2028/main.py)
+
 ---
 
 ## 👩‍🏫 Credits
