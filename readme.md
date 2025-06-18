@@ -117,6 +117,8 @@ This repository captures my progress during the initial phase of the course, foc
 ### Day 28
 - [Pomodoro Timer - GUI](./Day%2028/main.py)
 
+### Day 29
+- [Password Generator & Manager](./Day%2029/main.py)
 ---
 
 ## 👩‍🏫 Credits
