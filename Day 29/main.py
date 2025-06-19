@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import random
 import os
+import json
 
 FONT = ("Arial", 12)
 ALPHABETS = list('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')
@@ -31,6 +32,13 @@ def save_to_manager():
     username = username_input.get().strip()
     generated_password = password_output.get().strip()
 
+    new_data = {
+        website: {
+            "Username" : username,
+            "Password" : generated_password
+        },
+    }
+
     if not website or not username or not generated_password:
         messagebox.showwarning(title="Missing Info", message="Please fill in all fields.")
         return
@@ -42,11 +50,15 @@ def save_to_manager():
 
     if is_ok:
         try:
-            with open(r'Day 29\passwords.txt', mode='a') as data:
-                data.write(f"{website} | {username} | {generated_password}\n")
-        except Exception as e:
-            messagebox.showerror("Error", f"Failed to save the password: {e}")
+            with open(r'Day 29\passwords.json', 'r') as passwords_file:
+                data = json.load(passwords_file)
+        except FileNotFoundError:
+            with open(r'Day 29\passwords.json', 'w')as passwords_file:
+                json.dump(new_data, passwords_file, indent=4)
         else:
+            data.update(new_data)
+            with open(r'Day 29\passwords.json', 'w')as passwords_file:
+                json.dump(data, passwords_file, indent=4)
             website_input.delete(0, END)
             password_output.delete(0, END)
 
