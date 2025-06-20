@@ -119,6 +119,17 @@ This repository captures my progress during the initial phase of the course, foc
 
 ### Day 29
 - [Password Generator & Manager](./Day%2029/main.py)
+
+### Day 30:
+- Learned to handle errors using exceptions (`try-except`)
+- Worked with JSON to store and manage data
+- Added exception handling in:
+  - Snake game (to prevent crashes)
+  - Password manager (for missing files & invalid input)
+
+### Day 31
+- [French Vocabulary Flashcards](./Day%2031/main.py)
+
 ---
 
 ## 👩‍🏫 Credits
