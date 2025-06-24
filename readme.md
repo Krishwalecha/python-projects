@@ -130,6 +130,8 @@ This repository captures my progress during the initial phase of the course, foc
 ### Day 31
 - [French Vocabulary Flashcards](./Day%2031/main.py)
 
+### Day 32
+- [Weekly Quote Script](./Day%2032/main.py)
 ---
 
 ## 👩‍🏫 Credits
