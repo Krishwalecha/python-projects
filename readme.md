@@ -26,6 +26,7 @@ This repository captures my progress during the initial phase of the course, foc
 - `smtplib` for sending emails via SMTP  
 - `os` for interacting with the operating system  
 - `dotenv` for managing environment variables  
+- `requests` for making API calls (GET requests)
 
 ### 🧪 Debugging and Tools
 - Debugging strategies and clean code practices  
@@ -41,6 +42,10 @@ This repository captures my progress during the initial phase of the course, foc
 
 ### 📊 Data and External Libraries
 - Using external libraries like `pandas`, `numpy`, `matplotlib`, `colorgram`, etc.  
+
+### 🌐 APIs and Automation
+- Fetching real-time data from external APIs (`kanye.rest`, ISS API, sunrise-sunset API)  
+- Automating responses (e.g., email alerts, UI updates) based on API data
 
 ## 🚀 Projects Completed
 
@@ -190,6 +195,23 @@ This repository captures my progress during the initial phase of the course, foc
     EMAIL_RECIPIENT=recipient@example.com
     ```
     > 🔒 Do **not** commit the `.env` file. Make sure it is included in `.gitignore`.
+
+### Day 33
+- [Kanye Quotes GUI](./Day%2033/kanye_quotes/)  
+  A Tkinter GUI app that fetches random Kanye West quotes from the [kanye.rest](https://api.kanye.rest/) API and displays them in a window. Each button click fetches a new quote.
+
+- [ISS Overhead Project](./Day%2033/iss_overhead/)  
+  Checks if the International Space Station (ISS) is currently overhead **and** it's nighttime at your location. If both conditions are met, it sends you an email alert.
+
+  📁 **Environment Setup:**  
+  Create a `.env` file inside the [iss_overhead](./Day%2033/iss_overhead/) directory with:
+    ```env
+    EMAIL_USER=youremail@example.com
+    EMAIL_PASS=your_email_password_or_app_password
+    EMAIL_RECIPIENT=recipient@example.com
+    ```
+    > LATITUDE and LONGITUDE are hardcoded in `main.py`, make sure to update them to match your actual location.  
+    > Do not commit the `.env` file. Ensure it is listed in `.gitignore`.
 
 ---
 
