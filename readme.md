@@ -10,128 +10,187 @@ This repository captures my progress during the initial phase of the course, foc
 
 ## ✅ Concepts and Skills Covered So Far
 
+### 🧠 Core Python Programming
 - Variables, data types, and string manipulation  
-- Conditional statements and logical operators  
+- Conditional statements, logical operators, and control flow  
 - Functions, loops, and writing reusable code  
-- Python lists, dictionaries, and randomization techniques  
-- Debugging strategies and clean code practices  
+- Lists, dictionaries, sets, and randomization techniques  
+- Scope in Python: global, local, and constants  
 - Basic algorithmic problem solving  
-- Implementing challenges from Reeborg's World
-- Global scope, local scope and constants
-- Using debugging tools and environments (such as Thonny and IDE debuggers) to identify and fix errors  
-- Handling exceptions gracefully with try-except blocks 
-- Object Oriented Programming
-- Turtle graphics (using the turtle module), turtle event listeners
-- File handling and filesystem operations in Python
-- Python libraries like pandas, numpy, matplotlib
-- Tkinter GUI
+- Error handling with `try-except` blocks  
+- File handling and filesystem operations  
+
+### 🔧 Python Standard Libraries
+- `random` for randomness and simulations  
+- `datetime` for working with dates and scheduling  
+- `smtplib` for sending emails via SMTP  
+- `os` for interacting with the operating system  
+- `dotenv` for managing environment variables  
+
+### 🧪 Debugging and Tools
+- Debugging strategies and clean code practices  
+- Using Thonny and IDE debuggers to trace and fix bugs  
+
+### 👨‍🏫 Object-Oriented Programming (OOP)
+- Creating and using classes, methods, and objects  
+- Refactoring procedural code into OOP structure  
+
+### 🐢 Graphics and UI
+- Turtle graphics and event listeners  
+- GUI applications using Tkinter (buttons, labels, inputs, canvas)  
+
+### 📊 Data and External Libraries
+- Using external libraries like `pandas`, `numpy`, `matplotlib`, `colorgram`, etc.  
 
 ## 🚀 Projects Completed
 
 ### Day 01
-- [Band Name Generator](./Day%2001/bandNameGenerator.py)
+- [Band Name Generator](./Day%2001/bandNameGenerator.py)  
+  Generates a band name using the user's city and pet name.
 
 ### Day 02
 - [BMI Calculator](./Day%2002/bmiCalculator.py)  
-- [Tip Calculator](./Day%2002/tipCalculator.py)
+  Calculates Body Mass Index (BMI) based on user input.
+- [Tip Calculator](./Day%2002/tipCalculator.py)  
+  Calculates tip per person based on total bill and number of people.
 
 ### Day 03
 - [Treasure Island](./Day%2003/treasureHunt.py)  
+  Text-based adventure game using conditional logic.
 - [Pizza Order Program](./Day%2003/pythonPizzaStore.py)  
-- [Roller Coaster Ride Check](./Day%2003/rollerCoaster.py)
+  Calculates pizza cost based on user preferences.
+- [Roller Coaster Ride Check](./Day%2003/rollerCoaster.py)  
+  Checks ride eligibility and calculates ticket price.
 
 ### Day 04
 - [Coin Toss Game](./Day%2004/coinTossGame.py)  
-- [Rock Paper Scissors](./Day%2004/rockPaperScissors.py)
+  Simulates a heads or tails coin flip.
+- [Rock Paper Scissors](./Day%2004/rockPaperScissors.py)  
+  Classic RPS game: user vs computer.
 
 ### Day 05
-- [Password Generator](./Day%2005/passwordGenerator.py)
+- [Password Generator](./Day%2005/passwordGenerator.py)  
+  Generates random, secure passwords using letters, numbers, and symbols.
 
-### Day 06 – Reeborg's World Challenges  
-- [Maze Escape and Hurdle Challenges (1–4)](./Day%2006/)
+### Day 06 – Reeborg's World Challenges
+- [Maze & Hurdle Problems](./Day%2006/)  
+  Solves maze and hurdle courses using loops and logical functions.
 
 ### Day 07
-- [Hangman Game](./Day%2007/hangman.py)
+- [Hangman Game](./Day%2007/hangman.py)  
+  Word-guessing game with lives and ASCII art stages.
 
 ### Day 08
-- [Caesar Cipher](./Day%2008/customCaesarCipher.py)
+- [Caesar Cipher](./Day%2008/customCaesarCipher.py)  
+  Encrypts and decrypts messages using Caesar Cipher logic.
 
 ### Day 09
-- [Blind Auction](./Day%2009/blindAuction.py)
+- [Blind Auction](./Day%2009/blindAuction.py)  
+  Accepts secret bids from users and reveals the highest bidder.
 
 ### Day 10
-- [Calculator](./Day%2010/calculator.py)
+- [Calculator](./Day%2010/calculator.py)  
+  Performs arithmetic operations with function-based logic and input loops.
 
 ### Day 11
-- [Black Jack](./Day%2011/blackJack.py)
+- [Black Jack](./Day%2011/blackJack.py)  
+  Simulates a simplified version of the card game Blackjack.
 
 ### Day 12
-- [Number Guessing Game](./Day%2012/numberGuessingGame.py)
+- [Number Guessing Game](./Day%2012/numberGuessingGame.py)  
+  User must guess a number chosen by the computer in limited attempts.
 
-### Day 13  
-- How to find and debug errors (Analyze code line-by-line, think like the computer, use debuggers like Thonny, etc)  
-- No code file, focused on debugging techniques and mindset  
+### Day 13
+- No code – Focused on debugging strategies and tools like Thonny and IDE debuggers.
 
-### Day 14  
-- [Higher Lower Game](./Day%2014/higherLowerGame.py)
+### Day 14
+- [Higher Lower Game](./Day%2014/higherLowerGame.py)  
+  Guess which of two accounts has more social followers.
 
 ### Day 15
-- [Virtual Coffee Machine](./Day%2015/virtualCoffeeMachine.py)
+- [Virtual Coffee Machine](./Day%2015/virtualCoffeeMachine.py)  
+  Simulates a CLI coffee machine with resource checks and coin processing.
 
 ### Day 16
-- [Virtual Coffee Machine - OOP](./Day%2016/main.py)
+- [Virtual Coffee Machine (OOP)](./Day%2016/main.py)  
+  Refactored Day 15 using classes and object-oriented design.
 
 ### Day 17
-- [True or False Quiz](./Day%2017/main.py)
+- [True or False Quiz](./Day%2017/main.py)  
+  A quiz that pulls questions from an API and tracks score.
 
 ### Day 18
-- [Spirograph](./Day%2018/spirograph.py)
-- [Color Extractor](./Day%2018/color_extractor.py)
-- [Hirst's Dot Painting](./Day%2018/hirst_dot_painting.py)
+- [Spirograph](./Day%2018/spirograph.py)  
+  Draws colorful circular spirograph patterns using Turtle graphics.
+- [Color Extractor](./Day%2018/color_extractor.py)  
+  Extracts dominant colors from an image using `colorgram`.
+- [Hirst's Dot Painting](./Day%2018/hirst_dot_painting.py)  
+  Generates a dot painting inspired by Hirst using extracted colors.
 
 ### Day 19
-- [Turtle Sketcher](./Day%2019/turtle_sketcher.py)
-- [Turtle Race](./Day%2019/turtle_race.py)
+- [Turtle Sketcher](./Day%2019/turtle_sketcher.py)  
+  Draws on the screen using keyboard-controlled turtle.
+- [Turtle Race](./Day%2019/turtle_race.py)  
+  Simulates a race among turtles with random speeds.
 
 ### Day 20 and 21
-- [The Snake Game](./Day%2020%20and%2021/snake_game.py)
+- [The Snake Game](./Day%2020%20and%2021/snake_game.py)  
+  Classic snake game built with Turtle graphics, including collisions and scoring.
 
 ### Day 22
-- [Pong Battle](./Day%2022/pong_battle.py)
+- [Pong Battle](./Day%2022/pong_battle.py)  
+  Two-player Pong game with bounce physics using Turtle module.
 
 ### Day 23
-- [Turtle Crossing Game](./Day%2023/turtle_crossing.py)
+- [Turtle Crossing Game](./Day%2023/turtle_crossing.py)  
+  Avoid the traffic and cross the road — a Frogger-style game.
 
 ### Day 24
-- [Simple Letter Generator](./Day%2024/main.py)
+- [Letter Generator](./Day%2024/main.py)  
+  Generates personalized letters using name templates and file I/O.
 
 ### Day 25
-- [U.S. States Quiz](./Day%2025/main.py)
+- [U.S. States Quiz](./Day%2025/main.py)  
+  Learn U.S. states by guessing names shown on a blank map.
 
 ### Day 26
-- [NATO Alphabet Project](./Day%2026/main.py)
+- [NATO Alphabet Converter](./Day%2026/main.py)  
+  Converts words into their NATO phonetic alphabet representation.
 
 ### Day 27
-- [Miles to Kilometers Converter - GUI](./Day%2027/main.py)
+- [Miles to Kilometers Converter](./Day%2027/main.py)  
+  A simple Tkinter GUI to convert miles into kilometers.
 
 ### Day 28
-- [Pomodoro Timer - GUI](./Day%2028/main.py)
+- [Pomodoro Timer](./Day%2028/main.py)  
+  GUI-based productivity timer implementing the Pomodoro technique.
 
 ### Day 29
-- [Password Generator & Manager](./Day%2029/main.py)
+- [Password Manager](./Day%2029/main.py)  
+  A GUI tool to generate and store passwords securely using JSON.
 
-### Day 30:
-- Learned to handle errors using exceptions (`try-except`)
-- Worked with JSON to store and manage data
-- Added exception handling in:
-  - Snake game (to prevent crashes)
-  - Password manager (for missing files & invalid input)
+### Day 30
+- Focus on error handling using `try-except` blocks.  
+  Added JSON management and exception handling in:
+  - Password Manager
+  - Snake Game
 
 ### Day 31
-- [French Vocabulary Flashcards](./Day%2031/main.py)
+- [French Flashcards App](./Day%2031/main.py)  
+  Learn French vocabulary using a GUI flashcard app with flip animations.
 
 ### Day 32
-- [Weekly Quote Script](./Day%2032/main.py)
+- [Weekly Quote Script](./Day%2032/main.py)  
+  - Sends a motivational quote via email every Monday.
+  - Uses `smtplib` and `datetime` for scheduling.
+  - 📁 **Environment Setup:** Create a `.env` file inside the [Day 32](./Day%2032/) directory with:
+    ```env
+    EMAIL_USER=youremail@example.com
+    EMAIL_PASS=your_email_password_or_app_password
+    EMAIL_RECIPIENT=recipient@example.com
+    ```
+    > 🔒 Do **not** commit the `.env` file. Make sure it is included in `.gitignore`.
+
 ---
 
 ## 👩‍🏫 Credits
