@@ -213,6 +213,10 @@ This repository captures my progress during the initial phase of the course, foc
     > LATITUDE and LONGITUDE are hardcoded in `main.py`, make sure to update them to match your actual location.  
     > Do not commit the `.env` file. Ensure it is listed in `.gitignore`.
 
+### Day 34  
+- [Quiz App](./Day%2034/main.py)  
+  A GUI-based quiz application that fetches 10 random questions from the OpenTrivia API and displays them interactively.
+
 ---
 
 ## 👩‍🏫 Credits
