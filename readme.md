@@ -217,6 +217,28 @@ This repository captures my progress during the initial phase of the course, foc
 - [Quiz App](./Day%2034/main.py)  
   A GUI-based quiz application that fetches 10 random questions from the OpenTrivia API and displays them interactively.
 
+### Day 35  
+- [Rain Alert System](./Day%2035/main.py)  
+  A Python script that checks the weather forecast using the OpenWeather API and sends SMS alerts via Twilio if rain is expected in the next 12 hours.
+
+  📁 **Environment Setup:**  
+  Create a `.env` file inside the [Day 35](./Day%2035/) directory with the following content:
+  
+  ```env
+  API_KEY=your_openweather_api_key
+  TWILIO_ACCOUNT_SID=your_twilio_account_sid
+  TWILIO_AUTH_TOKEN=your_twilio_auth_token
+  TWILIO_FROM=your_twilio_phone_number
+  TWILIO_TO=recipient_phone_number
+  ```
+  
+  - 🌤️ Get your **OpenWeather API key** from [openweathermap.org/api](https://openweathermap.org/api)
+  - 📞 Get your **Twilio credentials** by signing up at [twilio.com](https://www.twilio.com/try-twilio)
+  
+  > The coordinates `LAT` and `LON` are hardcoded in `main.py` for Pune, India.  
+  > You can update them to your location for accurate weather data.  
+  > ⚠️ Do **not** commit the `.env` file — ensure it's listed in `.gitignore`.
+  
 ---
 
 ## 👩‍🏫 Credits
