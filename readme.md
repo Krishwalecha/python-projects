@@ -238,7 +238,31 @@ This repository captures my progress during the initial phase of the course, foc
   > The coordinates `LAT` and `LON` are hardcoded in `main.py` for Pune, India.  
   > You can update them to your location for accurate weather data.  
   > ⚠️ Do **not** commit the `.env` file — ensure it's listed in `.gitignore`.
-  
+
+### Day 36  
+- [Stock & News Alert System](./Day%2036/main.py)  
+  A Python script that tracks stock price changes using the Alpha Vantage API, fetches related news using the GNews API, and sends a summarized SMS alert via Twilio.
+
+  📁 **Environment Setup:**  
+  Create a `.env` file inside the [Day 36](./Day%2036/) directory with the following content:
+
+  ```env
+  ALPHA_VANTAGE_API_KEY=your_alpha_vantage_api_key
+  GNEWS_API_KEY=your_gnews_api_key
+  TWILIO_ACCOUNT_SID=your_twilio_account_sid
+  TWILIO_AUTH_TOKEN=your_twilio_auth_token
+  TWILIO_FROM=your_twilio_phone_number
+  TWILIO_TO=recipient_phone_number
+  ```
+
+  - 💹 Get your **Alpha Vantage API key** from [alphavantage.co](https://www.alphavantage.co/support/#api-key)
+  - 📰 Get your **GNews API key** from [gnews.io](https://gnews.io/)
+  - 📞 Get your **Twilio credentials** by signing up at [twilio.com](https://www.twilio.com/try-twilio)
+
+  > The script prompts you for a stock symbol (e.g., TSLA, AAPL).  
+  > It then sends an SMS with the daily stock change and top 3 related news articles.  
+  > ⚠️ Do **not** commit the `.env` file — ensure it's listed in `.gitignore`.
+
 ---
 
 ## 👩‍🏫 Credits
