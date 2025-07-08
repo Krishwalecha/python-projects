@@ -263,6 +263,20 @@ This repository captures my progress during the initial phase of the course, foc
   > It then sends an SMS with the daily stock change and top 3 related news articles.  
   > ⚠️ Do **not** commit the `.env` file — ensure it's listed in `.gitignore`.
 
+### Day 37  
+- [Pixela Habit Tracker](./Day%2037/main.py)  
+  A Python script that interacts with the [Pixela](https://pixe.la/) API to track daily progress.  
+  It allows you to create a user, define a graph, and manage pixel data (daily logs) with support for adding, updating, and deleting entries.
+
+  📁 **Environment Setup:**  
+  Create a `.env` file inside the [Day 37](./Day%2037/) directory with the following content:
+
+  ```env
+  PIXELA_TOKEN=your_pixela_token
+  PIXELA_USERNAME=your_pixela_username
+  ```
+  🔗 **Live Graph**: [View on Pixela](https://pixe.la/v1/users/mxlfunction/graphs/graph1.html)
+
 ---
 
 ## 👩‍🏫 Credits
