@@ -277,6 +277,19 @@ This repository captures my progress during the initial phase of the course, foc
   ```
   🔗 **Live Graph**: [View on Pixela](https://pixe.la/v1/users/mxlfunction/graphs/graph1.html)
 
+### Day 38  
+- [Exercise Tracker](./Day%2038/main.py)  
+  A Python script that uses the [Nutritionix](https://www.nutritionix.com/business/api) API to extract exercise details from natural language input.  
+  It logs your daily workouts (name, duration, calories) and saves them to a Google Sheet via the [Sheety](https://sheety.co/) API.
+
+  📁 **Environment Setup:**  
+  Create a `.env` file inside the [Day 38](./Day%2038/) directory with the following content:
+
+  ```env
+  APP_ID=your_nutritionix_app_id
+  API_KEY=your_nutritionix_api_key
+  ```
+
 ---
 
 ## 👩‍🏫 Credits
