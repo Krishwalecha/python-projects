@@ -45,7 +45,12 @@ This repository captures my progress during the initial phase of the course, foc
 
 ### 🌐 APIs and Automation
 - Fetching real-time data from external APIs (`kanye.rest`, ISS API, sunrise-sunset API)  
-- Automating responses (e.g., email alerts, UI updates) based on API data
+- Automating workflows such as email alerts, UI updates, and habit tracking using external data  
+- Understanding and using common HTTP methods for RESTful API interactions:
+  - `GET`: Retrieve data from APIs (e.g., quote fetchers, weather, space data)
+  - `POST`: Submit new data to servers (e.g., logging habits or workouts)
+  - `PUT`: Update existing resources (e.g., modifying previously logged data)
+  - `DELETE`: Remove resources from external services (e.g., deleting habit log entries)
 
 ## 🚀 Projects Completed
 
@@ -77,8 +82,8 @@ This repository captures my progress during the initial phase of the course, foc
 - [Password Generator](./Day%2005/passwordGenerator.py)  
   Generates random, secure passwords using letters, numbers, and symbols.
 
-### Day 06 – Reeborg's World Challenges
-- [Maze & Hurdle Problems](./Day%2006/)  
+### Day 06
+- [Maze & Hurdle Problems - Reeborg's World Challenges](./Day%2006/)  
   Solves maze and hurdle courses using loops and logical functions.
 
 ### Day 07
@@ -186,109 +191,41 @@ This repository captures my progress during the initial phase of the course, foc
 
 ### Day 32
 - [Weekly Quote Script](./Day%2032/main.py)  
-  - Sends a motivational quote via email every Monday.
-  - Uses `smtplib` and `datetime` for scheduling.
-  - 📁 **Environment Setup:** Create a `.env` file inside the [Day 32](./Day%2032/) directory with:
-    ```env
-    EMAIL_USER=youremail@example.com
-    EMAIL_PASS=your_email_password_or_app_password
-    EMAIL_RECIPIENT=recipient@example.com
-    ```
-    > 🔒 Do **not** commit the `.env` file. Make sure it is included in `.gitignore`.
+  Sends a motivational quote via email every Monday.  
+  📁 **Environment Setup:** See [Day 32 readme.md](./Day%2032/readme.md)
 
 ### Day 33
 - [Kanye Quotes GUI](./Day%2033/kanye_quotes/)  
-  A Tkinter GUI app that fetches random Kanye West quotes from the [kanye.rest](https://api.kanye.rest/) API and displays them in a window. Each button click fetches a new quote.
+  A Tkinter GUI app that fetches random Kanye West quotes from the [kanye.rest](https://api.kanye.rest/) API.
 
 - [ISS Overhead Project](./Day%2033/iss_overhead/)  
-  Checks if the International Space Station (ISS) is currently overhead **and** it's nighttime at your location. If both conditions are met, it sends you an email alert.
-
-  📁 **Environment Setup:**  
-  Create a `.env` file inside the [iss_overhead](./Day%2033/iss_overhead/) directory with:
-    ```env
-    EMAIL_USER=youremail@example.com
-    EMAIL_PASS=your_email_password_or_app_password
-    EMAIL_RECIPIENT=recipient@example.com
-    ```
-    > LATITUDE and LONGITUDE are hardcoded in `main.py`, make sure to update them to match your actual location.  
-    > Do not commit the `.env` file. Ensure it is listed in `.gitignore`.
+  Sends an email alert when the ISS is overhead at night.  
+  📁 **Environment Setup:** See [Day 33 readme.md](./Day%2033/readme.md)
 
 ### Day 34  
 - [Quiz App](./Day%2034/main.py)  
-  A GUI-based quiz application that fetches 10 random questions from the OpenTrivia API and displays them interactively.
+  A GUI-based quiz application using the OpenTrivia API.
 
 ### Day 35  
 - [Rain Alert System](./Day%2035/main.py)  
-  A Python script that checks the weather forecast using the OpenWeather API and sends SMS alerts via Twilio if rain is expected in the next 12 hours.
-
-  📁 **Environment Setup:**  
-  Create a `.env` file inside the [Day 35](./Day%2035/) directory with the following content:
-  
-  ```env
-  API_KEY=your_openweather_api_key
-  TWILIO_ACCOUNT_SID=your_twilio_account_sid
-  TWILIO_AUTH_TOKEN=your_twilio_auth_token
-  TWILIO_FROM=your_twilio_phone_number
-  TWILIO_TO=recipient_phone_number
-  ```
-  
-  - 🌤️ Get your **OpenWeather API key** from [openweathermap.org/api](https://openweathermap.org/api)
-  - 📞 Get your **Twilio credentials** by signing up at [twilio.com](https://www.twilio.com/try-twilio)
-  
-  > The coordinates `LAT` and `LON` are hardcoded in `main.py` for Pune, India.  
-  > You can update them to your location for accurate weather data.  
-  > ⚠️ Do **not** commit the `.env` file — ensure it's listed in `.gitignore`.
+  Checks weather and sends SMS if rain is expected using OpenWeather + Twilio APIs.  
+  📁 **Environment Setup:** See [Day 35 readme.md](./Day%2035/readme.md)
 
 ### Day 36  
 - [Stock & News Alert System](./Day%2036/main.py)  
-  A Python script that tracks stock price changes using the Alpha Vantage API, fetches related news using the GNews API, and sends a summarized SMS alert via Twilio.
-
-  📁 **Environment Setup:**  
-  Create a `.env` file inside the [Day 36](./Day%2036/) directory with the following content:
-
-  ```env
-  ALPHA_VANTAGE_API_KEY=your_alpha_vantage_api_key
-  GNEWS_API_KEY=your_gnews_api_key
-  TWILIO_ACCOUNT_SID=your_twilio_account_sid
-  TWILIO_AUTH_TOKEN=your_twilio_auth_token
-  TWILIO_FROM=your_twilio_phone_number
-  TWILIO_TO=recipient_phone_number
-  ```
-
-  - 💹 Get your **Alpha Vantage API key** from [alphavantage.co](https://www.alphavantage.co/support/#api-key)
-  - 📰 Get your **GNews API key** from [gnews.io](https://gnews.io/)
-  - 📞 Get your **Twilio credentials** by signing up at [twilio.com](https://www.twilio.com/try-twilio)
-
-  > The script prompts you for a stock symbol (e.g., TSLA, AAPL).  
-  > It then sends an SMS with the daily stock change and top 3 related news articles.  
-  > ⚠️ Do **not** commit the `.env` file — ensure it's listed in `.gitignore`.
+  Monitors stock prices and news; sends alerts via SMS using Alpha Vantage + GNews + Twilio.  
+  📁 **Environment Setup:** See [Day 36 readme.md](./Day%2036/readme.md)
 
 ### Day 37  
 - [Pixela Habit Tracker](./Day%2037/main.py)  
-  A Python script that interacts with the [Pixela](https://pixe.la/) API to track daily progress.  
-  It allows you to create a user, define a graph, and manage pixel data (daily logs) with support for adding, updating, and deleting entries.
-
-  📁 **Environment Setup:**  
-  Create a `.env` file inside the [Day 37](./Day%2037/) directory with the following content:
-
-  ```env
-  PIXELA_TOKEN=your_pixela_token
-  PIXELA_USERNAME=your_pixela_username
-  ```
-  🔗 **Live Graph**: [View on Pixela](https://pixe.la/v1/users/mxlfunction/graphs/graph1.html)
+  Track daily progress with Pixela API — supports graph, pixel CRUD.  
+  📁 **Environment Setup:** See [Day 37 readme.md](./Day%2037/readme.md)  
+  🔗 **Live Graph:** [View on Pixela](https://pixe.la/v1/users/mxlfunction/graphs/graph1.html)
 
 ### Day 38  
 - [Exercise Tracker](./Day%2038/main.py)  
-  A Python script that uses the [Nutritionix](https://www.nutritionix.com/business/api) API to extract exercise details from natural language input.  
-  It logs your daily workouts (name, duration, calories) and saves them to a Google Sheet via the [Sheety](https://sheety.co/) API.
-
-  📁 **Environment Setup:**  
-  Create a `.env` file inside the [Day 38](./Day%2038/) directory with the following content:
-
-  ```env
-  APP_ID=your_nutritionix_app_id
-  API_KEY=your_nutritionix_api_key
-  ```
+  Log workouts using Nutritionix + Sheety APIs from natural language input.  
+  📁 **Environment Setup:** See [Day 38 readme.md](./Day%2038/readme.md)
 
 ---
 
