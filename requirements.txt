@@ -1,0 +1,13 @@
+requests
+pandas
+numpy
+matplotlib
+colorgram.py
+python-dotenv
+beautifulsoup4
+selenium
+spotipy
+lxml
+twilio
+schedule
+webdriver-manager

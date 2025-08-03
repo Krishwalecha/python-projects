@@ -8,6 +8,14 @@ Angela Yu's course is a comprehensive, beginner-friendly Python bootcamp designe
 
 This repository captures my progress during the initial phase of the course, focusing on fundamental Python concepts and practical mini projects.
 
+## 🔧 Setup
+
+To run any of the projects in this repository, first install the required external libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## ✅ Concepts and Skills Covered So Far
 
 ### 🧠 Core Python Programming  
