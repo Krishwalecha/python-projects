@@ -10,7 +10,7 @@ This repository captures my progress during the initial phase of the course, foc
 
 ## ✅ Concepts and Skills Covered So Far
 
-### 🧠 Core Python Programming
+### 🧠 Core Python Programming  
 - Variables, data types, and string manipulation  
 - Conditional statements, logical operators, and control flow  
 - Functions, loops, and writing reusable code  
@@ -20,37 +20,50 @@ This repository captures my progress during the initial phase of the course, foc
 - Error handling with `try-except` blocks  
 - File handling and filesystem operations  
 
-### 🔧 Python Standard Libraries
+### 🔧 Python Standard Libraries  
 - `random` for randomness and simulations  
 - `datetime` for working with dates and scheduling  
 - `smtplib` for sending emails via SMTP  
 - `os` for interacting with the operating system  
 - `dotenv` for managing environment variables  
-- `requests` for making API calls (GET requests)
+- `requests` for making API calls (GET requests)  
+- `time` for delays and timing control  
 
-### 🧪 Debugging and Tools
+### 🧪 Debugging and Tools  
 - Debugging strategies and clean code practices  
 - Using Thonny and IDE debuggers to trace and fix bugs  
 
-### 👨‍🏫 Object-Oriented Programming (OOP)
+### 👨‍🏫 Object-Oriented Programming (OOP)  
 - Creating and using classes, methods, and objects  
 - Refactoring procedural code into OOP structure  
 
-### 🐢 Graphics and UI
+### 🐢 Graphics and UI  
 - Turtle graphics and event listeners  
 - GUI applications using Tkinter (buttons, labels, inputs, canvas)  
 
-### 📊 Data and External Libraries
+### 📊 Data and External Libraries  
 - Using external libraries like `pandas`, `numpy`, `matplotlib`, `colorgram`, etc.  
 
-### 🌐 APIs and Automation
+### 🌐 APIs and Automation  
 - Fetching real-time data from external APIs (`kanye.rest`, ISS API, sunrise-sunset API)  
 - Automating workflows such as email alerts, UI updates, and habit tracking using external data  
-- Understanding and using common HTTP methods for RESTful API interactions:
-  - `GET`: Retrieve data from APIs (e.g., quote fetchers, weather, space data)
-  - `POST`: Submit new data to servers (e.g., logging habits or workouts)
-  - `PUT`: Update existing resources (e.g., modifying previously logged data)
-  - `DELETE`: Remove resources from external services (e.g., deleting habit log entries)
+- Understanding and using common HTTP methods for RESTful API interactions:  
+  - `GET`: Retrieve data from APIs (e.g., quote fetchers, weather, space data)  
+  - `POST`: Submit new data to servers (e.g., logging habits or workouts)  
+  - `PUT`: Update existing resources (e.g., modifying previously logged data)  
+  - `DELETE`: Remove resources from external services (e.g., deleting habit log entries)  
+
+### 🕸️ Web Scraping and Parsing
+- Extracting structured data using **BeautifulSoup** from static HTML pages (e.g., Empire Online, Hacker News, Billboard Hot 100)  
+- Parsing HTML elements using CSS selectors and element attributes  
+- Saving scraped data to files (`.txt`) and using it for API-based workflows  
+
+### 🧠 Browser Automation 
+- Using **Selenium WebDriver** to automate browser interactions (clicks, form filling, navigation)  
+- Handling dynamic content, modal popups, and element detection  
+- Automating online games (e.g., Cookie Clicker) and job applications on LinkedIn  
+- Collecting real-time speed test results from websites like Speedtest.net  
+- Implementing user input workflows and captcha pauses  
 
 ## 🚀 Projects Completed
 
@@ -227,6 +240,37 @@ This repository captures my progress during the initial phase of the course, foc
   Log workouts using Nutritionix + Sheety APIs from natural language input.  
   📁 **Environment Setup:** See [Day 38 readme.md](./Day%2038/readme.md)
 
+### Day 45  
+- [Empire's Best Movies Scraper](./Day%2045/Top%20100%20Movies/main.py)  
+  Scrapes the top movies list from *Empire Online's* "Greatest Movies" article and saves the titles in reverse order to a text file.  
+  📄 **Output:** `movies.txt` containing the movie titles.
+
+- [Hacker News Top Article Finder](./Day%2045/Top%20100%20Movies/main.py)  
+  Scrapes the *Hacker News* homepage to identify the article with the highest upvotes, displaying its title, link, and score.
+
+### Day 46  
+- [Billboard Time Machine](./Day%2046/main.py)  
+  Travel back in time to any Billboard Hot 100 chart date, scrape the top 100 songs, and create a private playlist on your Spotify account with matching tracks.  
+  📁 **Environment Setup:** See [Day 46 readme.md](./Day%2046/readme.md)
+
+### Day 47  
+- [Amazon Price Tracker](./Day%2047/main.py)  
+  Monitors a product’s price on Amazon and sends you an email alert if the price drops below your specified threshold.  
+  📁 **Environment Setup:** See [Day 47 readme.md](./Day%2047/readme.md)
+
+### Day 48  
+- [Cookie Clicker Bot](./Day%2048/main.py)  
+  Automates the Cookie Clicker game using Selenium by repeatedly clicking the cookie and purchasing the best available items over a 5-minute session.  
+
+### Day 49  
+- [LinkedIn Easy Apply Bot](./Day%2049/main.py)  
+  Automates job applications on LinkedIn using Selenium. It logs in, visits job listings, and applies to all jobs with an "Easy Apply" button.  
+  📁 **Environment Setup:** See [Day 49 readme.md](./Day%2049/readme.md)
+
+### Day 51  
+- [Internet Speed Bot](./Day%2051/main.py)  
+  Uses Selenium to automate Speedtest.net and fetch current download and upload internet speeds. Displays results in the console.  
+  
 ---
 
 ## 👩‍🏫 Credits
